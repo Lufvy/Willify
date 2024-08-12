@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jakarta+Sans&family=Jua&display=swap">
+    <link rel="stylesheet" href="/Pages/css/Song_page.css">
+</head>
+<body>
+    <div class="topBar">
+        <div class="logo-container">
+            <img src="/Assets/logo.png" alt="" class="logo">
+            <h1 class="willify">WILLIFY</h1>
+        </div>        
+           
+        <div class="signup_button">
+            <a href="signUp_Page.html" class="sign-up" style="text-decoration: none;">Sign Up</a>
+        </div>
+            
+        
+    </div>
+
+    <div class="content_nav">
+       <input type="checkbox" id="check"/>
+    <nav>
+        <div class="nav-container">
+            <span class="menu">
+                <a href="./Home_Page.html" class="nav-link"><img src="/Assets/Home-icon.png" alt="">Home</a>
+                <a href="./Song_Page.html" class="nav-link"><img src="/Assets/song-icon.png" alt="">Song</a>
+                <a href="./About-us_Page.html" class="nav-link"><img src="/Assets/about us-icon.png" alt="">About us</a>
+            </span>
+        </div>
+        <label for="check" class="open-menu">&#9776;</label>
+    </nav>
+
+    <div id="content">
+        <div class="border">  
+            
+            <div class="box">
+                
+                <div class="search_box">
+                    <input type="text" id="search_input" placeholder="Search for songs...">
+                </div>
+            
+                <div id="songList"  class="song_list_box"></div>
+            </div>
+            <div class="footer">
+                <p>&copy; 2024 Willify</p>
+            </div>
+        </div> 
+    </div>
+    <script src="/Pages/js/Active_Page.js"></script>
+    <script src="/Pages/js/Search_Song.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Song </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jakarta+Sans&family=Jua&display=swap">
+    <link rel="stylesheet" href="/Pages/css/Detail_Song_page.css">
+</head>
+<body>
+    <div class="topBar">
+        <div class="logo-container">
+            <img src="/Assets/logo.png" alt="" class="logo">
+            <h1 class="willify">WILLIFY</h1>
+        </div>        
+           
+        <div class="signup_button">
+            <a href="signUp_Page.html" class="sign-up" style="text-decoration: none;">Sign Up</a>
+        </div>
+            
+        
+    </div>
+
+    <div class="content_nav">
+       <input type="checkbox" id="check"/>
+        <nav>
+            <div class="nav-container">
+                <span class="menu">
+                    <a href="./Home_Page.html" class="nav-link"><img src="/Assets/Home-icon.png" alt="">Home</a>
+                    <a href="./Song_Page.html" class="nav-link"><img src="/Assets/song-icon.png" alt="">Song</a>
+                    <a href="./About-us_Page.html" class="nav-link"><img src="/Assets/about us-icon.png" alt="">About us</a>
+                </span>
+            </div>
+            <label for="check" class="open-menu">&#9776;</label>
+        </nav>
+
+        <div id="content">
+            
+            <div class="border">
+                <div class="container">
+
+                <div>
+                        <div class="music-player">
+                            <div class="album-info">
+                                <img class="album-img" src="/Assets/at my worst- pink sweat.jpeg" alt="">
+                                <h2>At My Worst</h2>
+                                <h3>Pink Sweat</h3>
+                            </div>
+
+                            <input type="range" id="seek-slider" min="0" value="0" step="1">
+                            <div class="time">
+                                <span id="current-time">00:00</span>  <span id="duration">00:00</span>
+                            </div>
+
+                            <audio id="audio" controls>
+                                <source src="/Assets/Pink Sweat$ - At My Worst .mp3" type="audio/mpeg">
+                            </audio>
+                            <div class="controls">
+                                <button id="back" class="control-button"><img src="/Assets/backward.png" alt="Backward"></button>
+                                <button id="pause" class="control-button"><img src="/Assets/play.png" alt="Pause"></button>
+                                <button id="forward" class="control-button"><img src="/Assets/forward.png" alt="Forward"></button>
+                            </div>
+                            
+                        </div>
+                        <div class="detail">
+                            <p>Producer: John Hill & Pink Sweat$</p>
+                            <p>album: PINK PLANET</p>
+                            <p>Release: 17 July 2020</p>
+                            <p>Genre: R&B/Soul, Pop</p>
+                        </div>
+
+                    </div>
+
+                    <div class="lyric">
+                        <p>Can I call you baby?
+                            Can you be my friend?
+                            Can you be my lover up until the very end?
+                            Let me show you love, oh, I don't pretend
+                            Stick by my side even when the world is givin' in, yeah
+                            
+                            Oh, oh, oh, don't
+                            Don't you worry
+                            I'll be there, whenever you want me
+                            
+                            I need somebody who can love me at my worst
+                            No, I'm not perfect, but I hope you see my worth
+                            'Cause it's only you, nobody new, I put you first
+                            And for you, girl, I swear I'll do the worst
+                            
+                            If you stay forever, let me hold your hand
+                            I can fill those places in your heart no else can
+                            Let me show you love, oh, I don't pretend, yeah
+                            I'll be right here, baby, you know I'll sink or swim
+                            
+                            Oh, oh, oh, don't
+                            Don't you worry
+                            I'll be there, whenever you want me
+                            
+                            I need somebody who can love me at my worst
+                            No, I'm not perfect, but I hope you see my worth, yeah
+                            'Cause it's only you, nobody new, I put you first (put you first)
+                            And for you, girl, I swear I'll do the worst
+                            
+                            I need somebody who can love me at my worst
+                            No, I'm not perfect, but I hope you see my worth
+                            'Cause it's only you, nobody new, I put you first
+                            And for you, girl, I swear I'll do the worst
+                        </p>
+                        
+                    </div>
+                    <script src="/Pages/js/Music_Player.js"></script>
+
+                </div>
+                
+                <div class="footer"><p>&copy; 2024 Willify</p></div>
+
+            </div>
+           
+     
+        </div>
+
+     
+
+    </div>
+
+
+
+
+    
+
+</body>
+</html>
+

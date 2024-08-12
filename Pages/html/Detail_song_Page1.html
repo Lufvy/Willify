@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Song </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jakarta+Sans&family=Jua&display=swap">
+    <link rel="stylesheet" href="/Pages/css/Detail_Song_page.css">
+</head>
+<body>
+    <div class="topBar">
+        <div class="logo-container">
+            <img src="/Assets/logo.png" alt="" class="logo">
+            <h1 class="willify">WILLIFY</h1>
+        </div>        
+           
+        <div class="signup_button">
+            <a href="signUp_Page.html" class="sign-up" style="text-decoration: none;">Sign Up</a>
+        </div>
+            
+        
+    </div>
+
+    <div class="content_nav">
+       <input type="checkbox" id="check"/>
+        <nav>
+            <div class="nav-container">
+                <span class="menu">
+                    <a href="./Home_Page.html" class="nav-link"><img src="/Assets/Home-icon.png" alt="">Home</a>
+                    <a href="./Song_Page.html" class="nav-link"><img src="/Assets/song-icon.png" alt="">Song</a>
+                    <a href="./About-us_Page.html" class="nav-link"><img src="/Assets/about us-icon.png" alt="">About us</a>
+                </span>
+            </div>
+            <label for="check" class="open-menu">&#9776;</label>
+        </nav>
+
+        <div id="content">
+            
+            <div class="border">
+                <div class="container">
+                    <div>
+                        <div class="music-player">
+                            <div class="album-info">
+                                <img class="album-img" src="/Assets/bruno mars -count on.jpg" alt="">
+                                <h2>Count On Me</h2>
+                                <h3>Bruno Mars</h3>
+                            </div>
+
+                            <input type="range" id="seek-slider" min="0" value="0" step="1">
+                            <div class="time">
+                                <span id="current-time">00:00</span>  <span id="duration">00:00</span>
+                            </div>
+
+                            <audio id="audio" controls>
+                                <source src="/Assets/Bruno Mars - Count on Me.mp3" type="audio/mpeg">
+                            </audio>
+                            <div class="controls">
+                                <button id="back" class="control-button"><img src="/Assets/backward.png" alt="Backward"></button>
+                                <button id="pause" class="control-button"><img src="/Assets/play.png" alt="Pause"></button>
+                                <button id="forward" class="control-button"><img src="/Assets/forward.png" alt="Forward"></button>
+                            </div>
+                            
+                        </div>
+
+                        <div class="detail">
+                            <p>Producer: The Smeezingtons</p>
+                            <p>album:  Doo-Wops & Hooligans</p>
+                            <p>Release: 7 novemeber 2011</p>
+                            <p>Genre: Folkt.ropical</p>
+                        </div>
+
+                    </div>
+                    <div class="lyric">
+                        <p>Oh-oh
+                            
+                            If you ever find yourself stuck in the middle of the sea
+                            I'll sail the world to find you
+                            If you ever find yourself lost in the dark and you can't see
+                            I'll be the light to guide you
+                            
+                            We find out what we're made of
+                            When we are called to help our friends in need
+                            
+                            You can count on me like 1, 2, 3
+                            I'll be there
+                            And I know when I need it
+                            I can count on you like 4, 3, 2
+                            And you'll be there
+                            'Cause that's what friends are supposed to do, oh yeah
+                            
+                            Ooh-ooh-ooh-ooh-ooh
+                            Ooh-ooh-ooh-ooh-ooh
+                            Ooh, yeah, yeah
+                            
+                            If you're tossin' and you're turnin' and you just can't fall asleep
+                            I'll sing a song beside you
+                            And if you ever forget how much you really mean to me
+                            Every day, I will remind you, oh
+                            
+                            We find out what we're made of
+                            When we are called to help our friends in need
+                            
+                            You can count on me like 1, 2, 3
+                            I'll be there
+                            And I know when I need it
+                            I can count on you like 4, 3, 2
+                            And you'll be there
+                            'Cause that's what friends are supposed to do, oh yeah
+                            
+                            Ooh-ooh-ooh-ooh-ooh
+                            Ooh-ooh-ooh-ooh-ooh
+                            Ooh, yeah, yeah
+                            
+                            You'll always have my shoulder when you cry
+                            I'll never let go
+                            Never say goodbye
+                            You know
+                            
+                            You can count on me like 1, 2, 3
+                            I'll be there
+                            And I know when I need it
+                            I can count on you like 4, 3, 2
+                            And you'll be there
+                            'Cause that's what friends are supposed to do, oh yeah
+                            
+                            Ooh-ooh-ooh-ooh-ooh
+                            Ooh-ooh-ooh-ooh-ooh
+                            Ooh, yeah, yeah
+                            
+                            You can count on me, 'cause I can count on you 
+                        </p>
+                        
+                    </div>
+                    <script src="/Pages/js/Music_Player.js"></script>
+
+                </div>
+                
+                <div class="footer"><p>&copy; 2024 Willify</p></div>
+
+            </div>
+           
+     
+        </div>
+
+     
+
+    </div>
+
+
+
+
+    
+
+</body>
+</html>
+

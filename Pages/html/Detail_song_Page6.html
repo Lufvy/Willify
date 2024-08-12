@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Song </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jakarta+Sans&family=Jua&display=swap">
+    <link rel="stylesheet" href="/Pages/css/Detail_Song_page.css">
+</head>
+<body>
+    <div class="topBar">
+        <div class="logo-container">
+            <img src="/Assets/logo.png" alt="" class="logo">
+            <h1 class="willify">WILLIFY</h1>
+        </div>        
+           
+        <div class="signup_button">
+            <a href="signUp_Page.html" class="sign-up" style="text-decoration: none;">Sign Up</a>
+        </div>
+            
+        
+    </div>
+
+    <div class="content_nav">
+       <input type="checkbox" id="check"/>
+        <nav>
+            <div class="nav-container">
+                <span class="menu">
+                    <a href="./Home_Page.html" class="nav-link"><img src="/Assets/Home-icon.png" alt="">Home</a>
+                    <a href="./Song_Page.html" class="nav-link"><img src="/Assets/song-icon.png" alt="">Song</a>
+                    <a href="./About-us_Page.html" class="nav-link"><img src="/Assets/about us-icon.png" alt="">About us</a>
+                </span>
+            </div>
+            <label for="check" class="open-menu">&#9776;</label>
+        </nav>
+
+        <div id="content">
+            
+            <div class="border">
+                <div class="container">
+
+                    <div>  
+                        <div class="music-player">
+                            <div class="album-info">
+                                <img class="album-img" src="/Assets/Love decorate- an.jpeg" alt="">
+                                <h2>Love Decorate</h2>
+                                <h3>An,Gumi</h3>
+                            </div>
+
+                            <input type="range" id="seek-slider" min="0" value="0" step="1">
+                            <div class="time">
+                                <span id="current-time">00:00</span>  <span id="duration">00:00</span>
+                            </div>
+
+                            <audio id="audio" controls>
+                                <source src="/Assets/Love decoration.mp3" type="audio/mpeg">
+                            </audio>
+                            <div class="controls">
+                                <button id="back" class="control-button"><img src="/Assets/backward.png" alt="Backward"></button>
+                                <button id="pause" class="control-button"><img src="/Assets/play.png" alt="Pause"></button>
+                                <button id="forward" class="control-button"><img src="/Assets/forward.png" alt="Forward"></button>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="detail">
+                            <p>Producer: AnP& Kon'iro</p>
+                            <p>album: - </p>
+                            <p>Release: 5 August 2016</p>
+                            <p>Genre: J-Pop</p>
+                        </div>
+
+                    </div> 
+                    <div class="lyric">
+                        <p>Senakagoshi ohayou de hajimatta getsuyoubi
+                            Isogiashi kyoushitsu ni tobikonda gopun mae
+                            Tesuto no mae sukoshi nebusoku na kyou dakedo
+                            Ii koto aru no kana?
+                            
+                            Uranai toka hayari no koode toka ki ni natte
+                            Risou dake ga fukuramisugichatte karamawari
+                            Kirakira shita ojousama kyara de yuku nante
+                            Sonna no muri ga aru
+                            
+                            Houteishiki wa
+                            Omotteta ijou ni fukuzatsu da
+                            Umaku wa ikanai koto mo aru kedo
+                            Nagametenaide sa kakehiki mo shinakucha
+                            
+                            Chotto jikan o kakete
+                            Mawarimichi demo tama ni wa ii nja nai
+                            Kudaranai koto ya arifureta koto mo
+                            Kimi to iru egao koboreru yo
+                            Sutorappu osoroi ni shite sa
+                            Nanigenaku narabete miru ii kanji
+                            Mie o hacchatte iiwake mo suru kedo
+                            Sonna toki ga shiawase
+                            
+                            Ameagari hizashi ga tobikonda nichiyoubi
+                            Kokochi ii minamikaze ni tobinotte saa yukou
+                            Mita koto nai shousetsu no you na sekai da tte
+                            Tsurеte itte hoshii
+                            
+                            Gozen juuji
+                            Machiawasе gopun okure da yo
+                            Itsumo gaman shite ageteru ndakara
+                            Tama ni wa wagamama kiite mo kurenakya
+                            
+                            Kyou wa zeitaku o shite
+                            Amai amai doruche demo ii nja nai
+                            Yakitate no kureemu to nameraka na teisuti
+                            Kokoro mo karada mo hodokeru no
+                            
+                            Chotto iraira shita toki wa
+                            Ichi ni san kazoete shinkokyuu shiyou
+                            Tamatteta meeru mo sawagashii beru mo
+                            Ima wa sukoshi sayonara
+                            
+                            Osananajimi itsu datte
+                            Kenka shite wasurete
+                            Nan demo nai hazu nano ni
+                            Tabun sore wa otomegokoro
+                            Kitai shite shimau nda yo ne
+                            
+                            Chotto kiai o irete
+                            Imechen toka mo tama ni wa ii nja nai
+                            Itsumo yori sukoshi mijikame no maegami
+                            Kimi wa kizuite wa kureru kana
+                            
+                            Konna kimochi no ii asa wa
+                            Wantsuusuteppu o funde kokoro mo hazumu
+                            Itsumo no kousaten kimi to me ga aeba
+                            Ohayou kara hajimeyou
+                            Nanka totemo ii kanji
+                        </p>
+                        
+                    </div>
+                    <script src="/Pages/js/Music_Player.js"></script>
+
+                </div>
+                
+                <div class="footer"><p>&copy; 2024 Willify</p></div>
+
+            </div>
+           
+     
+        </div>
+
+     
+
+    </div>
+
+
+
+
+    
+
+</body>
+</html>
+

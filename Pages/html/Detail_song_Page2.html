@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Song </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jakarta+Sans&family=Jua&display=swap">
+    <link rel="stylesheet" href="/Pages/css/Detail_Song_page.css">
+</head>
+<body>
+    <div class="topBar">
+        <div class="logo-container">
+            <img src="/Assets/logo.png" alt="" class="logo">
+            <h1 class="willify">WILLIFY</h1>
+        </div>        
+           
+        <div class="signup_button">
+            <a href="signUp_Page.html" class="sign-up" style="text-decoration: none;">Sign Up</a>
+        </div>
+            
+        
+    </div>
+
+    <div class="content_nav">
+       <input type="checkbox" id="check"/>
+        <nav>
+            <div class="nav-container">
+                <span class="menu">
+                    <a href="./Home_Page.html" class="nav-link"><img src="/Assets/Home-icon.png" alt="">Home</a>
+                    <a href="./Song_Page.html" class="nav-link"><img src="/Assets/song-icon.png" alt="">Song</a>
+                    <a href="./About-us_Page.html" class="nav-link"><img src="/Assets/about us-icon.png" alt="">About us</a>
+                </span>
+            </div>
+            <label for="check" class="open-menu">&#9776;</label>
+        </nav>
+
+        <div id="content">
+            
+            <div class="border">
+                <div class="container">
+
+                    <div>
+                        <div class="music-player">
+                            <div class="album-info">
+                                <img class="album-img" src="/Assets/What makes you beautiful-one directionjpg.jpg" alt="">
+                                <h2>What Makes You Beautiful</h2>
+                                <h3>One Direction</h3>
+                            </div>
+
+                            <input type="range" id="seek-slider" min="0" value="0" step="1">
+                            <div class="time">
+                                <span id="current-time">00:00</span>  <span id="duration">00:00</span>
+                            </div>
+
+                            <audio id="audio" controls>
+                                <source src="/Assets/One Direction - What Makes You Beautiful.mp3" type="audio/mpeg">
+                            </audio>
+                            <div class="controls">
+                                <button id="back" class="control-button"><img src="/Assets/backward.png" alt="Backward"></button>
+                                <button id="pause" class="control-button"><img src="/Assets/play.png" alt="Pause"></button>
+                                <button id="forward" class="control-button"><img src="/Assets/forward.png" alt="Forward"></button>
+                            </div>
+                            
+                        </div>
+                        <div class="detail">
+                            <p>Producer: Rami Yacoub. Carl Falk</p>
+                            <p>album: Up All Night</p>
+                            <p>Release: 11 September 2011</p>
+                            <p>Genre: Power pop.pop rock.bubblegum pop</p>
+                        </div>
+                    </div>
+
+                    <div class="lyric">
+                        <p>You're insecure
+                            Don't know what for
+                            You're turning heads when you walk through the door
+                            Don't need make-up, to cover up
+                            Being the way that you are is enough
+                            
+                            Everyone else in the room can see it
+                            Everyone else but you
+                            
+                            Baby you light up my world like nobody else
+                            The way that you flip your hair gets me overwhelmed
+                            But when you smile at the ground it ain't hard to tell
+                            You don't know, oh oh
+                            You don't know you're beautiful
+                            If only you saw what I can see
+                            You'll understand why I want you so desperately
+                            Right now I'm looking at you and I can't believe
+                            You don't know, oh oh
+                            You don't know you're beautiful, oh oh
+                            That's what makes you beautiful
+                            
+                            So come on, you got it wrong
+                            To prove I'm right, I put it in a song
+                            I don't know why, you're being shy
+                            And turn away when I look into your eye eye eyes
+                            
+                            Everyone else in the room can see it
+                            Everyone else but you
+                            
+                            Baby you light up my world like nobody else
+                            The way that you flip your hair gets me overwhelmed
+                            But when you smile at the ground it ain't hard to tell
+                            You don't know, oh oh
+                            You don't know you're beautiful
+                            If only you saw what I can see
+                            You'll understand why I want you so desperately
+                            Right now I'm looking at you and I can't believe
+                            You don't know, oh oh
+                            You don't know you're beautiful, oh oh
+                            That's what makes you beautiful
+                            
+                            (Na na na na na na na)
+                            
+                            Baby you light up my world like nobody else
+                            The way that you flip your hair gets me overwhelmed
+                            But when you smile at the ground it ain't hard to tell
+                            You don't know, oh oh
+                            You don't know you're beautiful
+                            
+                            Baby you light up my world like nobody else
+                            The way that you flip your hair gets me overwhelmed
+                            But when you smile at the ground it ain't hard to tell
+                            You don't know, oh oh
+                            You don't know you're beautiful
+                            
+                            If only you saw what I can see
+                            You'll understand why I want you so desperately
+                            Right now I'm looking at you and I can't believe
+                            You don't know, oh oh
+                            You don't know you're beautiful, oh oh
+                            You don't know you're beautiful, oh oh
+                            That's what makes you beautiful
+                        </p>
+                        
+                    </div>
+                    <script src="/Pages/js/Music_Player.js"></script>
+
+                </div>
+                
+                <div class="footer"><p>&copy; 2024 Willify</p></div>
+            </div>
+        </div>    
+    </div>
+</body>
+</html>
+
